@@ -1,0 +1,108 @@
+.header {
+  margin-bottom: 200px;
+}
+
+.links  {
+  font-family: Arial;
+  font-size: 13px;
+  opacity: .75;
+  padding: 15px;
+}
+
+a {
+  font-family: Arial;
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  display: inline;
+}
+
+.left-side {
+  display: inline;
+  position: relative;
+  top: 12px;
+}
+
+.right-side {
+  display: inline;
+  float: right;
+}
+
+.app-icon {
+  height: 12px;
+  display: inline;
+}
+
+#sign-in {
+  color: white;
+  background-color: #4285F4;
+  /* padding: 10px; */
+}
+
+#sign-in a {
+  color: white;
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  margin: 25px auto;
+}
+
+.search-bar {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  height: 40px;
+  border: solid lightgray 1px;
+  border-radius: 25px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+
+}
+
+.search-buttons {
+  text-align: center;
+}
+
+.container {
+  clear: both;
+}
+
+button {
+  background-color: #F5F5F5;
+  padding: 5px 10px;
+  font-family: Arial;
+  border-radius: 5px;
+  font-size: 15px;
+  opacity: .75;
+  box-shadow: none;
+  border: 0;
+}
+
+footer {
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 25px;
+  background-color: #F5F5F5;
+}
+
+.right {
+  margin-right: 10px;
+}
+
+footer ul li {
+  padding: 5px;
+}
+
+button:hover {
+  border: 1px solid darkgray;
+}
